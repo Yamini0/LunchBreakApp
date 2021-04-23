@@ -23,7 +23,7 @@ const data = [
   // },
 ];
 
-const Onboard = props => {
+const Onboard = (props, { navigation }) => {
   const _renderItem = ({ item }) => {
     return (
       <View style={styles.slide}>
@@ -66,7 +66,9 @@ const Onboard = props => {
   };
 
   const handleDone = () => {
-    props.handleDone();
+    return navigation.navigate('Home');
+
+    // props.handleDone();
   };
   return (
     <View style={{ flex: 1 }}>
@@ -81,7 +83,9 @@ const Onboard = props => {
         renderNextButton={_renderNextButton}
         renderPrevButton={_renderPrevButton}
         showPrevButton
-        onDone={handleDone}
+        onDone={() => {
+          navigation.navigate('Home');
+        }}
       />
     </View>
   );

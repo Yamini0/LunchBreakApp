@@ -4,13 +4,9 @@ import {
   Text,
   TouchableOpacity,
   TextInput,
-  Platform,
   StyleSheet,
   StatusBar,
-  Alert,
-  SafeAreaView,
   Dimensions,
-  Image,
 } from 'react-native';
 import * as Animatable from 'react-native-animatable';
 import LinearGradient from 'react-native-linear-gradient';

@@ -1,5 +1,7 @@
 import React from 'react';
 const colors = {
+  primary: '#FF8C00',
+  secondary: '#898276',
   titlecolor: '#140d00',
   white: '#fff',
   blue: '#4b91e3',
