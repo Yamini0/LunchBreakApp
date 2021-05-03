@@ -26,7 +26,7 @@ const LoginScreen = ({ navigation }) => {
             color: 'white',
             fontFamily: 'OpenSans-SemiBold',
           }}>
-          Welcome!
+          Welcome Back!
         </Text>
       </View>
       <Animatable.View style={styles.footer} animation="fadeInUpBig">
@@ -93,7 +93,7 @@ const LoginScreen = ({ navigation }) => {
 
                 <TouchableOpacity
                   onPress={() => {
-                    navigation.navigate('Signup');
+                    navigation.navigate('SignUpScreen');
                   }}>
                   <LinearGradient
                     colors={['#FF6347', '#FF8C00']}
@@ -109,8 +109,8 @@ const LoginScreen = ({ navigation }) => {
         </Formik>
         <View
           style={{
-            top: 230,
-            marginBottom: 100,
+            top: 200,
+            marginBottom: 200,
             alignItems: 'center',
             justifyContent: 'center',
             flex: 0.5,
@@ -118,7 +118,7 @@ const LoginScreen = ({ navigation }) => {
           <Animatable.Image
             animation="bounce"
             source={require('../../assets/images/logo.png')}
-            style={{ width: '50%', height: '70%' }}
+            style={{ width: '50%', height: 100 }}
           />
           <Text>Powered by Lunch Break</Text>
         </View>

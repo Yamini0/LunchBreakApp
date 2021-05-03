@@ -139,14 +139,14 @@ const SignUpScreen = ({ navigation }) => {
         <View
           style={{
             top: 70,
-            marginBottom: 80,
+            marginBottom: 60,
             alignItems: 'center',
             justifyContent: 'center',
             flex: 1,
           }}>
           <Image
             source={require('../../assets/images/logo.png')}
-            style={{ width: '50%', height: '120%' }}
+            style={{ width: '50%', height: '280%' }}
           />
           <Text>Powered by Lunch Break</Text>
         </View>

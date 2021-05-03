@@ -7,6 +7,7 @@ import Cart from '../components/screens/Cart';
 
 import colors from '../assets/colors/Colors';
 import Ionicons from 'react-native-vector-icons/Ionicons';
+import OrderDelivery from '../components/screens/OrderDelivery';
 
 const Tab = createBottomTabNavigator();
 const BottomTabNavigation = () => {
@@ -105,7 +106,7 @@ const BottomTabNavigation = () => {
       />
       <Tab.Screen
         name="Search"
-        component={HomeScreen}
+        component={OrderDelivery}
         options={{
           tabBarIcon: ({ focused }) => (
             <Ionicons

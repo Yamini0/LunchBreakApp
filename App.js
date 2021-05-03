@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { View, StyleSheet } from 'react-native';
-// import Onboard from './src/components/screens/Onboard';
+import Onboard from './src/components/screens/Onboard';
 // import Home from './src/components/screens/Home';
 // import LoginScreen from './src/components/screens/LoginScreen';
 
@@ -15,9 +15,9 @@ const App = () => {
 
   return (
     <View style={styles.container}>
-      <MainStack />
-      {/* {showOnboard && <Onboard handleDone={handleOnboardFinish} />}
-      {!showOnboard && <Home/>} */}
+      {/* <MainStack /> */}
+      {showOnboard && <Onboard handleDone={handleOnboardFinish} />}
+      {!showOnboard && <MainStack />}
     </View>
   );
 };

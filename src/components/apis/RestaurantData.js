@@ -1,4 +1,3 @@
-import React from 'react';
 import images from '../../assets/images/restaurantImg';
 const affordable = 1;
 const fairPrice = 2;
@@ -12,6 +11,15 @@ const RestaurantData = [
     priceRating: 'affordable',
     photo: images.burger_restaurant_1,
     duration: '30 - 45 min',
+
+    location: {
+      latitude: 1.5347282806345879,
+      longitude: 110.35632207358996,
+    },
+    courier: {
+      avatar: images.avatar_1,
+      name: 'Amy',
+    },
     menu: [
       {
         menuId: 1,
@@ -47,7 +55,14 @@ const RestaurantData = [
     priceRating: expensive,
     photo: images.pizza_restaurant,
     duration: '15 - 20 min',
-
+    location: {
+      latitude: 1.5347282806345879,
+      longitude: 110.35632207358996,
+    },
+    courier: {
+      avatar: images.avatar_1,
+      name: 'Amy',
+    },
     menu: [
       {
         menuId: 4,
@@ -92,7 +107,14 @@ const RestaurantData = [
     priceRating: expensive,
     photo: images.hot_dog_restaurant,
     duration: '20 - 25 min',
-
+    location: {
+      latitude: 1.5347282806345879,
+      longitude: 110.35632207358996,
+    },
+    courier: {
+      avatar: images.avatar_1,
+      name: 'Amy',
+    },
     menu: [
       {
         menuId: 8,
@@ -112,7 +134,14 @@ const RestaurantData = [
     priceRating: expensive,
     photo: images.japanese_restaurant,
     duration: '10 - 15 min',
-
+    location: {
+      latitude: 1.5347282806345879,
+      longitude: 110.35632207358996,
+    },
+    courier: {
+      avatar: images.avatar_1,
+      name: 'Amy',
+    },
     menu: [
       {
         menuId: 9,
@@ -132,7 +161,14 @@ const RestaurantData = [
     priceRating: affordable,
     photo: images.noodle_shop,
     duration: '15 - 20 min',
-
+    location: {
+      latitude: 1.5347282806345879,
+      longitude: 110.35632207358996,
+    },
+    courier: {
+      avatar: images.avatar_1,
+      name: 'Amy',
+    },
     menu: [
       {
         menuId: 10,
@@ -176,7 +212,14 @@ const RestaurantData = [
     priceRating: affordable,
     photo: images.kek_lapis_shop,
     duration: '35 - 40 min',
-
+    location: {
+      latitude: 1.5347282806345879,
+      longitude: 110.35632207358996,
+    },
+    courier: {
+      avatar: images.avatar_1,
+      name: 'Amy',
+    },
     menu: [
       {
         menuId: 14,

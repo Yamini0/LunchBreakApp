@@ -46,7 +46,7 @@ const HomeFooter = props => {
           <View
             style={{
               position: 'absolute',
-              left: 260,
+              left: 200,
               bottom: 14,
               height: 40,
               width: 150,

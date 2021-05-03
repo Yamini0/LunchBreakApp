@@ -16,11 +16,6 @@ const data = [
     text: 'Fast Delivery to your home,\noffice and wherever you are.',
     image: require('../../assets/images/Onboard-2.json'),
   },
-  // {
-  //   title: 'Rocket guy',
-  //   text: "I'm already out of descriptions\n\nLorem ipsum bla bla bla",
-  //   image: require('../../assets/images/onboard-1.jpg'),
-  // },
 ];
 
 const Onboard = (props, { navigation }) => {
@@ -66,9 +61,9 @@ const Onboard = (props, { navigation }) => {
   };
 
   const handleDone = () => {
-    return navigation.navigate('Home');
+    // return navigation.navigate('Home');
 
-    // props.handleDone();
+    props.handleDone();
   };
   return (
     <View style={{ flex: 1 }}>
@@ -83,9 +78,7 @@ const Onboard = (props, { navigation }) => {
         renderNextButton={_renderNextButton}
         renderPrevButton={_renderPrevButton}
         showPrevButton
-        onDone={() => {
-          navigation.navigate('Home');
-        }}
+        onDone={handleDone}
       />
     </View>
   );
