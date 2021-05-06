@@ -14,4 +14,4 @@ Lunch Break is a mobile application build react-native-cli.
 
 ## Screen Shots of the various screen of the application.
 
-![](src/assets/images/image.png)
+![ ](img-food-app.png)
